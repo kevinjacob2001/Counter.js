@@ -23,8 +23,8 @@ document.querySelector("#start").addEventListener("click", function () {
     var x = setInterval(function () {
         document.querySelector("#field").textContent = val;
         val--;
-        if (val == -1) {
-            console.log("winner")
+        if (val == -2) {
+        alert("The timer has reached zero!")
             clearInterval(x);
         }
     }, 500)

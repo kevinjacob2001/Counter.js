@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .first {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -20,5 +25,34 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+#Increment, #Decrement {
+  color: #050202;
+  padding: 15px;
+  border: 0px;
+  border-radius: 10px;
+  background: #7b7bee;
+  margin: 30px;
+}
+
+#start, #reset {
+  padding: 10px;
+  border: 0px;
+  border-radius: 10px;
+  background: #8e8ec5;
+  margin: 30px;
+}
+
+header {
+  width: 100%;
+  height: 40px;
+  background: #504940;
+}
+
+.box {
+  width: 100%;
+  height: 100vh;
+  background-color: #78da16;
 }
 /*# sourceMappingURL=counter.css.map */
