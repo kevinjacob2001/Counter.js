@@ -24,7 +24,7 @@ document.querySelector("#start").addEventListener("click", function () {
         document.querySelector("#field").textContent = val;
         val--;
         if (val == -2) {
-        alert("The timer has reached zero!")
+            alert("The timer has reached zero!")
             clearInterval(x);
         }
     }, 500)
