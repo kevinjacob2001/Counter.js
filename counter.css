@@ -6,7 +6,7 @@
 
 header {
   width: 100%;
-  height: 60px;
+  height: 70px;
   background-image: -webkit-gradient(linear, left bottom, right top, from(#62799b), color-stop(#8650d6), color-stop(#694964), color-stop(#9c4068), to(#dd4455));
   background-image: linear-gradient(to right top, #62799b, #8650d6, #694964, #9c4068, #dd4455);
 }
@@ -33,7 +33,7 @@ header {
 .box .first #Increment,
 .box .first #Decrement {
   color: #050202;
-  padding: 15px;
+  padding: 25px;
   border: 0px;
   border-radius: 10px;
   background: #7b7bee;
